@@ -41,8 +41,7 @@
     "build": "rimraf ./build && tsc",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
-    "crawl-notion": "ts-node ./src/scripts/notion.crawler.ts",
-    "notion-data": "ts-node ./src/scripts/notion.data.ts"
+    "crawl-notion": "ts-node ./src/scripts/notion.crawler.ts"
   },
   "husky": {
     "hooks": {

@@ -1,4 +1,5 @@
-export type masterId = string;
+export type MasterId = string;
+export type Entry = string;
 type PostTitle = string;
 type Created = string;
 type Edited = string;
