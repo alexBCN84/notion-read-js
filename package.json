@@ -2,7 +2,7 @@
   "name": "notion-read-js",
   "version": "1.0.0",
   "description": "notion-read-js reads all articles that are children of a given notion page id in a json format. The Api is intended for those who wish to use notion as a content source for a blog. This is an unofficial API with no links to notion.",
-  "main": "build/index.js",
+  "main": "functions/server.js",
   "license": "MIT",
   "author": "Alejandro Gines",
   "repository": {
@@ -29,9 +29,11 @@
     "eslint": "^7.6.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "husky": "^4.2.5",
+    "netlify-lambda": "^2.0.1",
     "nodemon": "^2.0.4",
     "puppeteer-tsd": "^0.0.2",
     "rimraf": "^3.0.2",
+    "serverless-http": "^2.5.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
   },
